@@ -1,0 +1,12 @@
+1) Which field of the Customers table is the primary key?
+-> Cnum INT;
+
+2) What is the 4th column of the Customers table?
+-> Rating INT;
+
+3) What is another word for row? For column?
+-> Tuple, Entity, Opportunity.
+
+4) Why isn’t it possible to see the first five rows of a table?
+-> In MySQL each row is considered as file. When we insert row in table the row is stored on available disk space on server hard disk, So each record is inserted at random available addresses on disk space on server hard disk and not stored sequentially.
+Inserted rows are fragmented on server db. So it is not possible to access first five records.
